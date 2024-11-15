@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class umkm extends Model
 {
     use HasFactory;
+    protected $fillable=['nama_usaha','pemilik','jenis_usaha','alamat'];
+    protected $table = 'umkm';
 }

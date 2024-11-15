@@ -85,7 +85,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/"
+                            <a href="{{route('umkm.index')}}"
                                 class="nav-link {{ ($title==='UMKM') ? 'active':'' }}">
                                 <i class="nav-icon fas fa-store"></i>
                                 <p>
