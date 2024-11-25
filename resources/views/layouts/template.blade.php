@@ -103,14 +103,16 @@
                                 </p>
                             </a>
                         </li>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="fas fa-chart-line nav-icon"></i>
-                                    <p>Omzet</p>
-                                </a>
-                            </li>
-                        </ul>
+
+                        <li class="nav-item">
+    <a href="#" class="nav-link {{($title==='Omzet')?'active':''}}">
+        <i class="nav-icon fas fa-chart-line"></i> <!-- Ikon Omzet -->
+        <p>
+            Omzet
+            <i class="fas fa-angle-left right"></i>
+        </p>
+    </a>
+</li>
                         <li class="nav-item">
                             <a href="#" class="nav-link {{ ($title==='Users')?'active':''}}">
                                 <i class="nav-icon fas fa-users"></i>
